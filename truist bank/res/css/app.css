@@ -1,0 +1,153 @@
+* {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    outline: none;
+    box-sizing: border-box;
+
+}
+header{
+    background: #2e1a47;
+    display: block;
+    padding:20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.left {
+    background-color: #e5ddf4;
+    padding: 80px;
+    text-align: center;
+    width: 50%;
+}
+
+.right {
+    background-color: #fff;
+    padding: 160px;
+    margin-top: 80px;
+    width: 50%;
+    text-align: center;
+}
+
+h4 {
+    color: #6a4e97;
+}
+
+.card {
+    width: 250px;
+    margin: 20px 0;
+}
+
+.logo {
+    width: 180px;
+    margin: 45px 0;
+}
+
+
+span {
+    display: block;
+    color: black;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+p {
+    color: #6a4e97;
+    font-size: 15px;
+}
+
+
+.btn {
+
+    color: #72569c;
+    padding: 10px 20px;
+    border: 2px solid #72569c;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.links a {
+    color: #6a4e97;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+form {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.btn2 {
+    background-color: #72569c;
+    color: white;
+    padding: 17px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.or {
+    margin: 20px 0;
+    font-size: 17px;
+    color: #999;
+    text-align: center;
+}
+.qr {
+    background-color: white;
+    color: #72569c;
+    padding: 15px 32px;
+    border-color: #72569c;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1000px){
+    .left{display:none;}
+    .right{width: 360px; padding:10px;} 
+    main{padding:15px;}
+    input{width:100%;}
+    button{width:100%;}
+    
+
+    
+
+   
+    
+    
+}
